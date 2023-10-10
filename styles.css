@@ -1,0 +1,32 @@
+
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --base-font: 'Mulish', sans-serif;
+
+  /* Colors */
+  --color-title: #B52184;
+  --color-content: #312D64;
+  --background-color: #F9F4FB;
+}
+
+body {
+  font-family: var(--base-font);
+  background-color: var(--background-color);
+}
+
+h1 {
+  font-size: 4rem;
+  color: var(--color-title);
+}
+
+#subtitle {
+  font-size: 2rem;
+  color: var(--color-content);
+}
+
